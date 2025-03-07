@@ -5,7 +5,7 @@ A way to use these are to open the Windows VM from the kali machine VM that has 
 
 From there the kali VM I do : rdesktop VMIP -u Login -p Password -g 80% -r disk:linux=/home/kali/windows. 
 
-In the Kali machine in /home/<UsernameHomeDirHereKali>/windows copy the the files from the repo (so you just copy the files once and then reuse later on). 
+In the Kali machine in /home/kali/windows copy the the files from the repo (so you just copy the files once and then reuse later on). 
 
 In the Windows VM you will see presented an "Linux on Kali" remote network share. Browse the remote share and on the bat file you want just right click and run as adminstrator. The bat files will start looping and starting the the right process, attach windbg to it automatically and pause for the next "cycle". 
 
